@@ -1,0 +1,13 @@
+.pageContent {
+  width: 100%;
+  animation: pageFade 2s;
+}
+
+@keyframes pageFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

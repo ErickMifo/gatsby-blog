@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.dark {
+  background-color: #252422;
+  color: white;
+  transition: 1s ease;
+}
+.dark button {
+  color: white;
+}
+.dark a {
+  color: white;
+}
+
+.light {
+  background-color: #fffcf2;
+  color: black;
+  transition: 1s ease;
+}
+
+.light button {
+  color: black;
+}
+.light a {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20%;
+  list-style-type: none;
+  line-height: 1.6;
+  width: 60%;
+  font-size: 20px;
+  letter-spacing: -0.003em;
+}

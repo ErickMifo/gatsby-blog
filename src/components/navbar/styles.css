@@ -1,0 +1,84 @@
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+.buttonnav {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 1.25rem;
+  padding: 8px 24px;
+}
+
+.buttonnav:hover {
+  color: #eb5e28;
+}
+
+.buttonHome {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 2rem;
+  margin: 3px;
+  letter-spacing: 5px;
+}
+
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: all 0.5s ease-in;
+    z-index: 1;
+  }
+
+  .buttonnav {
+    padding: 50px;
+  }
+}
+
+.nav-active {
+  padding: 10px;
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  top: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  transition: all 0.5s ease-in;
+  transform: translateX(0%);
+  z-index: 1;
+}

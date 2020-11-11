@@ -1,0 +1,28 @@
+import React from 'react';
+import Layout from '../components/layout';
+import { graphql } from 'gatsby';
+import './styles.css'
+
+export const query = graphql`
+ query($slug: String!) {
+     markdownRemark(fields: {slug: { eq: $slug } }) {
+         frontmatter {
+             title
+             date
+         }
+         html
+     }
+ }
+`
+
+function Blog(props) {
+    return( 
+        <Layout>
+            <div className="pageContent"
+            dangerouslySetInnerHTML={{__html: props.data.markdownRemark.html }} />
+            <p>{props.data.markdownRemark.frontmatter.date}</p>
+        </Layout>
+    )
+}
+
+export default Blog
