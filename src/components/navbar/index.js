@@ -1,16 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './styles.css';
-import DehazeIcon from '@material-ui/icons/Dehaze';
-import ClearIcon from "@material-ui/icons/Clear";
 import { Link } from 'gatsby';
 
-function NavBar({toggleClick, DarkLight}) {
-
-    const [click, setClick] = useState(false)
-
-    const handleClick = () => {
-setClick(!click)
-    }
+function NavBar({toggleClick, DarkLight, handleClickContato}) {
 
 
     return(
@@ -24,25 +16,23 @@ setClick(!click)
             </button>
         </Link>
 
-
-            <div className={click ? "nav-active" : "nav-links"}>
-
-
             <button
             onClick={toggleClick}
-            className="buttonnav"> 
+            className="buttonnavLight"> 
             {DarkLight}
+            </button>
+
+            
+            <button
+            onClick={handleClickContato}
+            className="buttonnav"> 
+            Contato
             </button>
             
 
             </div>
 
-            <div role="button" tabIndex={0} className="menu-icon" onClick={handleClick} onKeyDown={handleClick}> 
 
-            {click ? <ClearIcon /> : <DehazeIcon />}
-            
-          </div>
-        </div>
     )
 }
 

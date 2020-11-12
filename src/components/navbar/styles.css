@@ -4,7 +4,8 @@
   padding-top: 10px;
 }
 
-.buttonnav {
+.buttonnav,
+.buttonnavLight {
   background: none;
   border: none;
   cursor: pointer;
@@ -13,7 +14,8 @@
   padding: 8px 24px;
 }
 
-.buttonnav:hover {
+.buttonnav:hover,
+.buttonnavLight:hover {
   color: #eb5e28;
 }
 
@@ -37,48 +39,11 @@ button:focus {
   box-shadow: none;
 }
 
-.menu-icon {
-  display: none;
-}
-
 @media screen and (max-width: 768px) {
-  .menu-icon {
-    display: block;
-    font-size: 40px;
-    cursor: pointer;
+  .buttonHome {
+    margin-left: 20px;
   }
-
-  .nav-links {
-    padding: 10px;
-    position: absolute;
-    right: 0px;
-    height: 92vh;
-    top: 12vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    transform: translateX(100%);
-    transition: all 0.5s ease-in;
-    z-index: 1;
+  .buttonnavLight {
+    display: none;
   }
-
-  .buttonnav {
-    padding: 50px;
-  }
-}
-
-.nav-active {
-  padding: 10px;
-  position: absolute;
-  right: 0px;
-  height: 100%;
-  top: 12vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  transition: all 0.5s ease-in;
-  transform: translateX(0%);
-  z-index: 1;
 }
