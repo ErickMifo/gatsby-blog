@@ -1,5 +1,6 @@
 ---
     title: 'Sobre meu processo de aprendizagem de programação'
+    preview: 'Como eu comecei a aprender programação foi um processo um pouco estranho, mas acredito que muito normal. Antes de aprender grande parte da teoria já quis fazer meu primeiro projeto, como se...'
     date: '2020-11-11'   
 ---
 

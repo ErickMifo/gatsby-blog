@@ -1,5 +1,7 @@
 ---
     title: 'Sobre meu vício em animações'
+    preview: 'Nem todo mundo é perfeito e o meu defeito é colocar animação para qualquer coisa, mesmo quando não necessário.
+Por mais simples que seja usar um keyframes para ver o elemento ir de opacidade 0 para 1, é algo que eu não vivo sem. Da esquerda para direta, de cima pra baixo, não...'
     date: '2020-11-11'   
 ---
 

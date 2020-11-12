@@ -1,0 +1,14 @@
+.sobre {
+  width: 100%;
+  height: 80vh;
+}
+.sobretext {
+  font-size: 26px;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90%;
+  height: 100%;
+}
