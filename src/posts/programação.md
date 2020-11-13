@@ -18,8 +18,7 @@ Depois dessa experiência eu fui ver tutoriais no Youtube, tentar conhcer alguns
 
 5 meses se passaram fazendo isso ( com 1-2 meses de pausa porque ninguem é de ferro ) e resolvi criar meu portfólio, ver se consigo um emprego com o que aprendi até agora, mas, antes de me candidatar a vagas, percebi que, por aprender fazendo, não sei o básico de algumas coisas como:
 
-1. Fazer o clássico todo list só com JavaScript e HTML ( provavelmente só conseguiria fazer usando React );
-2. Usar React.Component ( Alguem ainda usa ? só aprendi a usar Hooks );
-3. usar Redux.
+1. Usar React.Component ( Alguem ainda usa ? só aprendi a usar Hooks );
+2. usar Redux.
 
 entre outros exemplos que não vi necessidade para meus próprios projetos, talvez criando buracos no espectro das coisas que eu 'sei'. Obviamente, por ainda não ter me candidatado à nenhuma vaga, ainda não sei o quão prejudicial foi aprender somente pela prática, mas isso eu descubro nas minhas possíveis entrevistas de emprego e faço outro post.

@@ -1,3 +1,13 @@
 .posts {
   margin-bottom: 70px;
+  animation: postAnimation 1s;
+}
+
+@keyframes postAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
