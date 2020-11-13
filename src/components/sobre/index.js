@@ -11,7 +11,7 @@ function Sobre() {
   const [aboutRef, aboutView] = useInView({
 
     triggerOnce: true,
-    rootMargin: '-300px'
+
 
   })
 
