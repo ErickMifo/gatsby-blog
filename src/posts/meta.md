@@ -14,10 +14,6 @@ Ao definir como Light Mode e ir para outra página, volta o estado de Dark Mode.
 
 Todos tópicos ficam juntos e bagunçados.
 
-**Sem contato**
-
-Adicionar ala de contato.
-
 **Scroll infinito**
 
 Caso haja um aumento nos posts, adicionar scroll infinito.
