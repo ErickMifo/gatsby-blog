@@ -16,6 +16,12 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`${__dirname}/src/components/layouts`),
+      },
+    },
+    {
       resolve: `gatsby-plugin-page-creator`,
       options: {
         path: `${__dirname}/src/pages`,

@@ -1,9 +1,21 @@
-import React, {useState} from 'react';
+import React, { useState, useRef } from 'react';
+import Formulario from "../contato/form";
 import './styles.css'
 import Navbar from '../navbar';
 
 
-function Layout({ children, handleClickContato }) {
+function Layout({ children }) {
+
+    
+  const contatoRef = useRef()
+
+  const handleClickContato = () => {
+      window.scrollTo({
+          behavior: "smooth",
+          top: contatoRef.current.offsetTop
+      })
+  }
+
 
     const toggle = () => {
         setDark(!Dark)
@@ -11,7 +23,9 @@ function Layout({ children, handleClickContato }) {
 
     const [Dark, setDark] = useState(false)
 
+
     return(
+  
         <main   
         className = {Dark ? "dark" : "light"}>
         <Navbar
@@ -20,8 +34,10 @@ function Layout({ children, handleClickContato }) {
         toggleClick={toggle} />
             <div className="content">
             {children}
+            <Formulario contatoRef={contatoRef} />
             </div>
         </main>
+
     )
 };
 
