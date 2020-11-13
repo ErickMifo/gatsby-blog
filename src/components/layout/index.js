@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './styles.css'
 import Navbar from '../navbar';
-import Footer from '../footer';
+
 
 function Layout({ children, handleClickContato }) {
 
@@ -21,7 +21,6 @@ function Layout({ children, handleClickContato }) {
             <div className="content">
             {children}
             </div>
-        <Footer />
         </main>
     )
 };
